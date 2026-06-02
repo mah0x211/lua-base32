@@ -20,10 +20,11 @@
  *  DEALINGS IN THE SOFTWARE.
  */
 
+// depend
 #include "lua_errno.h"
+// lua
 #include <lauxlib.h>
-#include <lua.h>
-// include system headers
+// system
 #include <ctype.h>
 #include <errno.h>
 #include <stdint.h>
